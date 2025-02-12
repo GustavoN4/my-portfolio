@@ -9,7 +9,7 @@
     "experiece"
     "info";
 }
-.btnPrimary{
+.btnPrimary, a{
     width: 325px;
     height: 45px;
     color: var(--text-secundary);
@@ -25,6 +25,7 @@
     align-items: center;
     gap: 19px;
     justify-content: center;
+    text-decoration: none;
 }
 @media(min-width: 768px){
     .container{
