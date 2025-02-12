@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MyPhoto from "../../assets/Gustavo.webp";
 import './Header.scss'
 export function Header() {
     return (
@@ -9,7 +10,8 @@ export function Header() {
                 <h2 className="subtexto">Densevolvedor web</h2>
             </div>
             <Image
-                src="https://nextjs.org/icons/next.svg"
+            className="MyPhoto"
+                src={MyPhoto}
                 alt="Next.js logo"
                 width={325}
                 height={310}

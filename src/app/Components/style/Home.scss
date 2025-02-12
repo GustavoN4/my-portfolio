@@ -9,6 +9,23 @@
     "experiece"
     "info";
 }
+.btnPrimary{
+    width: 325px;
+    height: 45px;
+    color: var(--text-secundary);
+    border-radius: 24px;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background: var(--btn-color);
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    justify-content: center;
+}
 @media(min-width: 768px){
     .container{
         padding:  70px 60px;
